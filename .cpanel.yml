@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dojoninj/public_html/students
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
